@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="images/icon.png">
+  <title>Le nostre foto</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>  <nav id="navbar">
+    <a class="nav-brand" href="index.html">
+      <svg width="18" height="16" viewBox="0 0 20 18" fill="currentColor" aria-hidden="true"><path d="M10 17C10 17 1 11 1 5.5A4.5 4.5 0 0 1 10 2.8 4.5 4.5 0 0 1 19 5.5C19 11 10 17 10 17Z"/></svg>
+      per te
+    </a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="perche.html">Perché</a>
+      <a href="noi.html">Noi</a>
+      <a href="lettera.html">Lettera</a>
+      <a href="canzoni.html">Canzoni</a>
+      <a href="foto.html" class="active">Foto</a>
+      <a href="polaroid.html">Polaroid</a>
+      <a href="posto.html">Posto</a>
+      <a href="gioco.html">Gioco</a>
+      <a href="segreto.html">Segreto</a>
+      <a href="anniversario.html">27</a>
+    </div>
+    <div class="nav-right">
+      <button class="theme-toggle" id="themeToggle" aria-label="Cambia tema">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+    </div>
+  </nav>
+  <main>
+    <header class="sub-hero">
+      <div class="hero-deco">
+        <div class="deco-ring ring-1"></div>
+        <div class="deco-ring ring-2"></div>
+      </div>
+      <p class="eyebrow">i nostri momenti</p>
+      <h1 class="sub-title">Le nostre <em>foto</em></h1>
+      <p class="sub-desc">Ogni scatto è un pezzetto di noi. Alcuni sono dolci, altri buffi, ma tutti mi fanno sorridere.</p>
+      <a href="index.html" class="back-link">&#8592; Torna alla home</a>
+    </header>
+
+    <section class="section">
+      <div class="container">
+        <p class="section-tag">Galleria</p>
+        <h2 class="section-title">I momenti che <em>mi porto dentro</em></h2>
+        <div class="title-rule"></div>
+        <p class="body-text">Clicca su una foto per vederla meglio.</p>
+        <div class="photo-grid" id="photoGrid"></div>
+      </div>
+    </section>
+  </main>
+  <footer id="footer">
+    <div class="footer-heart">
+      <svg width="36" height="32" viewBox="0 0 20 18" fill="currentColor"><path d="M10 17C10 17 1 11 1 5.5A4.5 4.5 0 0 1 10 2.8 4.5 4.5 0 0 1 19 5.5C19 11 10 17 10 17Z"/></svg>
+    </div>
+    <p class="footer-title">Sempre, ogni giorno.</p>
+    <p class="footer-sub">Fatto con tutto l'amore che ho — il tuo Simo</p>
+  </footer>
+  <div class="petals-wrap"><div id="petals"></div></div>
+  <script src="script.js"></script>
+</body>
+</html>
